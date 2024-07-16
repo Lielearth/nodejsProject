@@ -1,0 +1,82 @@
+[{
+      "_id":{
+        "$oid":"60d5ec49f1b2f9a7d1234561"
+      },
+      "name": {
+        "first": "Uri",
+        "middle": "the",
+        "last": "User"
+      },
+      "phone": "050-1234567",
+      "email": "user@gmail.com",
+      "password": "User123!",
+      "image": {
+        "url": "/images/profile/user.svg",
+        "alt": "User Profile"
+      },
+      "address": {
+        "state": "Israel",
+        "country": "Israel",
+        "city": "Haifa",
+        "street": "Lotus",
+        "houseNumber": 15,
+        "zip": 111111
+      },
+      "isAdmin": false,
+      "isBusiness": false
+    },
+    {
+      "_id":{
+        "$oid":"60d5ec49f1b2f9a7d1234562"
+      },
+      "name": {
+        "first": "Benny",
+        "middle": "the",
+        "last": "Business"
+      },
+      "phone": "052-1234567",
+      "email": "biz@gmail.com",
+      "password":"Biz123!",
+      "image": {
+        "url": "/images/profile/business.svg",
+        "alt": "Business Profile"
+      },
+      "address": {
+        "state": "Israel",
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "street": "Sderot Begin",
+        "houseNumber": 62,
+        "zip": 222222
+      },
+      "isAdmin": false,
+      "isBusiness": true
+    },
+    {
+      "_id":{
+        "$oid":"60d5ec49f1b2f9a7d1234563"
+      },
+      "name": {
+        "first": "Arik",
+        "middle": "the",
+        "last": "Admin"
+      },
+      "phone": "054-1234567",
+      "email": "admin@gmail.com",
+      "password": "Admin123!",
+      "image": {
+        "url": "/images/profile/admin.svg",
+        "alt": "Admin Profile"
+      },
+      "address": {
+        "state": "Israel",
+        "country": "Israel",
+        "city": "Jerusalem",
+        "street": "King George",
+        "houseNumber": 120,
+        "zip": 333333
+      },
+      "isAdmin": true,
+      "isBusiness": false
+    }
+  ]
